@@ -460,6 +460,11 @@ img {
     height: auto;
 }
 
+:root{
+    --mainBlue: #2f5572;
+
+}
+
 .large-hero {
     position: relative;
 }
@@ -476,14 +481,14 @@ img {
 
 .large-hero__title {
     font-weight: 300;
-    color: #2f5572;
+    color: var(--mainBlue);
     font-size: 4.8rem;
     margin: 0;
     }
 
 .large-hero__subtitle {
     font-weight: 300;
-    color: #2f5572;
+    color: var(--mainBlue);
     font-size: 2.9rem;
     margin: 0;
     }
@@ -499,6 +504,10 @@ img {
     }
 
 .btn {
-    background-color: #2f5572;
+    background-color: var(--mainBlue);
     color: #FFF;
+    text-decoration: none;
+    padding: 1.2rem;
+    display: inline-block;
 }
+

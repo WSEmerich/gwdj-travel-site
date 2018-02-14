@@ -1,0 +1,14 @@
+.section-title {
+    font-style: 3.75rem;
+    font-weight: 300;
+    text-align: center;
+    font-size: 3.25rem;
+
+    strong {
+        font-weight: 500;
+    }
+
+    &__icon {
+        margin-right: 0.5rem;
+    }
+}

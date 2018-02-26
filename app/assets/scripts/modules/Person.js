@@ -5,3 +5,5 @@ function Person(fullName, favColor) {
         console.log("Hello there! My name is " + this.name + " and my favorite color is " + this.favoriteColor + ".");        
     }
 }
+
+module.exports = Person;

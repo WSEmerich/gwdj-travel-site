@@ -1,9 +1,11 @@
 var path = require('path');
 
-module.exports = {
+var config = {
     entry: "./app/assets/scripts/app.js",
     output: {
         path: path.resolve(__dirname, "./app/temp/scripts"),
         filename: "app.bundle.js"
     }
-}
+};
+
+module.exports = config;

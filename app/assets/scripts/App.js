@@ -1,5 +1,7 @@
 var $ = require('jquery');
-var Person = require("./modules/Person.js");
+var Person = require("./modules/Personn.js");
+
+
 
 
 

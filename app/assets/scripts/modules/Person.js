@@ -5,8 +5,9 @@ class Person {
     }
     
     greet() {
-        console.log("WASSSSUUPPP!!! My name is " + this.name + " and my favorite color is " + this.favoriteColor + ".");        
+        console.log("Hello. My name is " + this.name + " and my favorite color is " + this.favoriteColor + ".");        
     }
 }
 
-module.exports = Person;
+//module.exports = Person;
+export default Person;

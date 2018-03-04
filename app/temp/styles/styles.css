@@ -980,7 +980,7 @@ a {
 @media (min-width: 800px) {
 
 .testimonial {
-    margin-bottom: 0;
+    margin-bottom: 98px;
     padding: 0 1.8125rem 1px 1.8125rem
 }
     }
@@ -1200,6 +1200,10 @@ a {
             display: block
     }
     }
+
+.site-header__menu-content--is-visible {
+            display: block;
+        }
 
 .primary-nav--pull-right {
         float: right;

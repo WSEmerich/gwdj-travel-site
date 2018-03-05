@@ -14,7 +14,14 @@ class RevealOnScroll {
 
   createWaypoints() {
     this.itemsToReveal.each(function() {
-      alert("Testing!!");
+      var currentItem = this;
+      new Waypoint({
+        element: currentItem,
+        handler: function() {
+          $(currentItem).addClass("reveal-item--is-visible");
+        },
+        offset: "80%"
+      });
     });
   }
 }

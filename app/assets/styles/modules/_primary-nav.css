@@ -42,12 +42,16 @@
         font-size: .8rem,;
         border-radius: 5px;
         /* background-color: rgba($mainBlue, .5);         */
-        background-color: $mainBlue;        
+        background-color: $mainBlue;     
 
         @mixin atMedium {
             padding: 12px 0;
             font-size: 1rem;
             background-color: transparent;
+
+            &.is-current-link {
+                color: #fabb69;
+            }
         }
     }    
 }
